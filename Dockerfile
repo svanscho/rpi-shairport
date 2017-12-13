@@ -1,6 +1,6 @@
 FROM resin/rpi-raspbian
 
-MAINTAINER Evan Salter <evanearlsalter@gmail.com>
+MAINTAINER Sander Van Schoote <vanschoote.sander@gmail.com>
 
 RUN apt-get update && apt-get install -y \
    git \
