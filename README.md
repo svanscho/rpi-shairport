@@ -22,7 +22,7 @@ $ docker run -d --restart always \
 
 ```sh
 $ git clone https://github.com/svanscho/rpi-shairport/
-$ cd shairport-sync-docker-pi
+$ cd rpi-shairport
 $ docker build . -t rpi-shairport
 $ docker run -d --restart always \
                 --name shairport \
