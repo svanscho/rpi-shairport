@@ -15,20 +15,20 @@ $ docker run -d --restart always \
                 --name shairport \
                 --net host \
                 --device /dev/snd \
-                evansalter/shairport-sync-docker-pi
+                svanscho/rpi-shairport
 ```
 
 ## Building from scratch
 
 ```sh
-$ git clone https://github.com/esalter-va/shairport-sync-docker-pi/
+$ git clone https://github.com/svanscho/rpi-shairport/
 $ cd shairport-sync-docker-pi
-$ docker build . -t shairport-sync-docker-pi
+$ docker build . -t rpi-shairport
 $ docker run -d --restart always \
                 --name shairport \
                 --net host \
                 --device /dev/snd \
-                shairport-sync-docker-pi
+                rpi-shairport
 ```
 
 ---
