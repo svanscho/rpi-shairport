@@ -12,7 +12,7 @@ Tested on a Raspberry Pi 3 running Debian Jessie.
 
 ```sh
 $ docker run -d --restart always \
-                --name shairport \
+                --name rpi-shairport \
                 --net host \
                 --device /dev/snd \
                 svanscho/rpi-shairport
