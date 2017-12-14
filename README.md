@@ -25,7 +25,7 @@ $ git clone https://github.com/svanscho/rpi-shairport/
 $ cd rpi-shairport
 $ docker build . -t rpi-shairport
 $ docker run -d --restart always \
-                --name shairport \
+                --name rpi-shairport \
                 --net host \
                 --device /dev/snd \
                 rpi-shairport
